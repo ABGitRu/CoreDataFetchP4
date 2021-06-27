@@ -13,6 +13,20 @@
 		048A588726839B7F0041D1FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048A588526839B7F0041D1FC /* Main.storyboard */; };
 		048A588926839B8C0041D1FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048A588826839B8C0041D1FC /* Assets.xcassets */; };
 		048A588C26839B8C0041D1FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048A588A26839B8C0041D1FC /* LaunchScreen.storyboard */; };
+		048A589526839C2E0041D1FC /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A589426839C2E0041D1FC /* FilterViewController.swift */; };
+		048A589826839C510041D1FC /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A589726839C510041D1FC /* CoreDataStack.swift */; };
+		048A589B26839DD20041D1FC /* seed.json in Resources */ = {isa = PBXBuildFile; fileRef = 048A589A26839DD20041D1FC /* seed.json */; };
+		048A589F26839DDC0041D1FC /* Bubble_Tea_Finder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048A589D26839DDB0041D1FC /* Bubble_Tea_Finder.xcdatamodeld */; };
+		048A58AB26839DF50041D1FC /* PriceInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A58A126839DF50041D1FC /* PriceInfo+CoreDataClass.swift */; };
+		048A58AC26839DF50041D1FC /* PriceInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A58A226839DF50041D1FC /* PriceInfo+CoreDataProperties.swift */; };
+		048A58AD26839DF50041D1FC /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A58A326839DF50041D1FC /* Category+CoreDataClass.swift */; };
+		048A58AE26839DF50041D1FC /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A58A426839DF50041D1FC /* Category+CoreDataProperties.swift */; };
+		048A58AF26839DF50041D1FC /* Stats+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A58A526839DF50041D1FC /* Stats+CoreDataClass.swift */; };
+		048A58B026839DF50041D1FC /* Stats+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A58A626839DF50041D1FC /* Stats+CoreDataProperties.swift */; };
+		048A58B126839DF50041D1FC /* Venue+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A58A726839DF50041D1FC /* Venue+CoreDataClass.swift */; };
+		048A58B226839DF50041D1FC /* Venue+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A58A826839DF50041D1FC /* Venue+CoreDataProperties.swift */; };
+		048A58B326839DF50041D1FC /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A58A926839DF50041D1FC /* Location+CoreDataClass.swift */; };
+		048A58B426839DF50041D1FC /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A58AA26839DF50041D1FC /* Location+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,20 @@
 		048A588826839B8C0041D1FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048A588B26839B8C0041D1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048A588D26839B8C0041D1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048A589426839C2E0041D1FC /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		048A589726839C510041D1FC /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		048A589A26839DD20041D1FC /* seed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = seed.json; sourceTree = "<group>"; };
+		048A589E26839DDB0041D1FC /* Bubble_Tea_Finder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bubble_Tea_Finder.xcdatamodel; sourceTree = "<group>"; };
+		048A58A126839DF50041D1FC /* PriceInfo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PriceInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		048A58A226839DF50041D1FC /* PriceInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PriceInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		048A58A326839DF50041D1FC /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		048A58A426839DF50041D1FC /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		048A58A526839DF50041D1FC /* Stats+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stats+CoreDataClass.swift"; sourceTree = "<group>"; };
+		048A58A626839DF50041D1FC /* Stats+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stats+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		048A58A726839DF50041D1FC /* Venue+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Venue+CoreDataClass.swift"; sourceTree = "<group>"; };
+		048A58A826839DF50041D1FC /* Venue+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Venue+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		048A58A926839DF50041D1FC /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		048A58AA26839DF50041D1FC /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +68,16 @@
 		048A587326839B7F0041D1FC = {
 			isa = PBXGroup;
 			children = (
+				048A58A126839DF50041D1FC /* PriceInfo+CoreDataClass.swift */,
+				048A58A226839DF50041D1FC /* PriceInfo+CoreDataProperties.swift */,
+				048A58A326839DF50041D1FC /* Category+CoreDataClass.swift */,
+				048A58A426839DF50041D1FC /* Category+CoreDataProperties.swift */,
+				048A58A526839DF50041D1FC /* Stats+CoreDataClass.swift */,
+				048A58A626839DF50041D1FC /* Stats+CoreDataProperties.swift */,
+				048A58A726839DF50041D1FC /* Venue+CoreDataClass.swift */,
+				048A58A826839DF50041D1FC /* Venue+CoreDataProperties.swift */,
+				048A58A926839DF50041D1FC /* Location+CoreDataClass.swift */,
+				048A58AA26839DF50041D1FC /* Location+CoreDataProperties.swift */,
 				048A587E26839B7F0041D1FC /* CoreDataFetchP4 */,
 				048A587D26839B7F0041D1FC /* Products */,
 			);
@@ -59,10 +97,14 @@
 				048A587F26839B7F0041D1FC /* AppDelegate.swift */,
 				048A588126839B7F0041D1FC /* SceneDelegate.swift */,
 				048A588326839B7F0041D1FC /* ViewController.swift */,
+				048A589426839C2E0041D1FC /* FilterViewController.swift */,
+				048A589726839C510041D1FC /* CoreDataStack.swift */,
 				048A588526839B7F0041D1FC /* Main.storyboard */,
+				048A589A26839DD20041D1FC /* seed.json */,
 				048A588826839B8C0041D1FC /* Assets.xcassets */,
 				048A588A26839B8C0041D1FC /* LaunchScreen.storyboard */,
 				048A588D26839B8C0041D1FC /* Info.plist */,
+				048A589D26839DDB0041D1FC /* Bubble_Tea_Finder.xcdatamodeld */,
 			);
 			path = CoreDataFetchP4;
 			sourceTree = "<group>";
@@ -126,6 +168,7 @@
 			files = (
 				048A588C26839B8C0041D1FC /* LaunchScreen.storyboard in Resources */,
 				048A588926839B8C0041D1FC /* Assets.xcassets in Resources */,
+				048A589B26839DD20041D1FC /* seed.json in Resources */,
 				048A588726839B7F0041D1FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +180,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048A58B426839DF50041D1FC /* Location+CoreDataProperties.swift in Sources */,
+				048A589826839C510041D1FC /* CoreDataStack.swift in Sources */,
+				048A58B226839DF50041D1FC /* Venue+CoreDataProperties.swift in Sources */,
 				048A588426839B7F0041D1FC /* ViewController.swift in Sources */,
+				048A58B326839DF50041D1FC /* Location+CoreDataClass.swift in Sources */,
+				048A589F26839DDC0041D1FC /* Bubble_Tea_Finder.xcdatamodeld in Sources */,
+				048A58B026839DF50041D1FC /* Stats+CoreDataProperties.swift in Sources */,
+				048A58AF26839DF50041D1FC /* Stats+CoreDataClass.swift in Sources */,
+				048A58AC26839DF50041D1FC /* PriceInfo+CoreDataProperties.swift in Sources */,
 				048A588026839B7F0041D1FC /* AppDelegate.swift in Sources */,
+				048A58B126839DF50041D1FC /* Venue+CoreDataClass.swift in Sources */,
+				048A58AB26839DF50041D1FC /* PriceInfo+CoreDataClass.swift in Sources */,
+				048A589526839C2E0041D1FC /* FilterViewController.swift in Sources */,
+				048A58AE26839DF50041D1FC /* Category+CoreDataProperties.swift in Sources */,
+				048A58AD26839DF50041D1FC /* Category+CoreDataClass.swift in Sources */,
 				048A588226839B7F0041D1FC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +397,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		048A589D26839DDB0041D1FC /* Bubble_Tea_Finder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				048A589E26839DDB0041D1FC /* Bubble_Tea_Finder.xcdatamodel */,
+			);
+			currentVersion = 048A589E26839DDB0041D1FC /* Bubble_Tea_Finder.xcdatamodel */;
+			path = Bubble_Tea_Finder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 048A587426839B7F0041D1FC /* Project object */;
 }
